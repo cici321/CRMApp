@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#9ed0a3</color>
+    <color name="blue">#2c96f9</color>
+    <color name="title_bg">#434546</color>
+    <color name="menu_bg">#F3F3F3</color>
+    <color name="white">#feffff</color>
+    <color name="black">#696a6b</color>
+    <color name="line">#f3f3f3</color>
+    <color name="app_bg">#f1f1f0</color>
+    <color name="app_bg2">#F0F0F0</color>
+    <color name="font0">#707071</color>
+    <color name="font1">#7a7b7c</color>
+    <color name="font2">#cdcdd4</color>
+    <color name="font3">#dfe0df</color>
+    <color name="font4">#cecece</color>
+    <color name="huise">#F5F5F5</color>
+
+</resources>

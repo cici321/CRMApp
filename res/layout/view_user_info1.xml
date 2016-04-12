@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_info_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="头像"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/font1"
+        android:textSize="14sp" />
+
+    <com.cheng.crmapp.widget.RoundImageView
+        android:id="@+id/user_info_image"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp"
+        android:layout_toLeftOf="@+id/user_info_forward"
+        android:src="@drawable/user_head" />
+
+    <ImageView
+        android:id="@+id/user_info_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_advance" />
+
+</RelativeLayout>

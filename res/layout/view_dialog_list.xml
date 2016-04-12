@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececeb"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="查看范围"
+        android:textColor="@color/font1"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/crm_dialog_myself"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="我自己"
+        android:textColor="@color/font1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/crm_dialog_subordinate"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="我的下属"
+        android:textColor="@color/font1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/crm_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/font1"
+        android:textSize="15sp" />
+
+</LinearLayout>
